@@ -1,0 +1,41 @@
+Tolong buatkan kode program c++ dengan alur pseuucode seperti ini 
+
+Input  : (tahun/bulan/tanggal hari ini)
+Output : (tahun/bulan/tanggal besok &
+         tahun/bulan/tanggal kemarin)
+
+CARA :
+ 1. cek apakah akhir bulan 3 pilihan 
+   - pil 1 tanggal 28/29 = tahun kabisat atau non kabisat
+   - pil 2 tanggal 30
+   - pil 3 tanggal 31
+
+ 2. berikutnya pasti tanggal 1. bulan +1 tahun ada 2 pilihan 
+  - pil 1 tahun tetap
+  - pil 2 tahun tambah
+
+ 3. lainya (bukan akhir bulan)
+    maka tanggal berikutnya tanggal +1 bulan tetap dan tahun tetap
+
+Algoritma 
+ if bulan = 2(febuary) then
+   if tanggal = 29 then 
+     tanggal = 1, bulan = 3(maret), tahun = tetap
+   else 
+     tanggal +1, bulan = tetap, tahun tetap 
+else {bulan febuary tapi tahun non kabisat}
+   if tanggal = 28 then
+     tanggal = 1, bulan = maret, tahun = tetap
+   else
+     tanggal +1, bulan tetap, tahun = tetap
+else {selain bulan febuary}
+   if tanggal = 31 then 
+     tanggal = 1, bulan+1, tahun = tetap
+   else {selain tanggal (31)}
+     tanggal +1, bulan = tetap, tahun = tetap
+if bulan = 12(desember) then
+   if tanggal = 31 then
+      tanggal=1, bulan = tetap, tahun +1
+   else {selain tanggal (31)}
+      tanggal +1, bulan = tetap, tahun = tetap
+else {selain desember}

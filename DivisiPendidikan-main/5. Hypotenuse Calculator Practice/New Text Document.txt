@@ -1,0 +1,21 @@
+z = max(x, y);
+
+Fungsi ini mengembalikan nilai terbesar dari dua nilai yang diberikan (x dan y). Contoh: jika x adalah 5 dan y adalah 8, maka hasilnya akan menjadi 8.
+z = min(x, y);
+
+Fungsi ini mengembalikan nilai terkecil dari dua nilai yang diberikan (x dan y). Contoh: jika x adalah 5 dan y adalah 8, maka hasilnya akan menjadi 5.
+z = abs(-3);
+
+Fungsi ini mengembalikan nilai absolut dari sebuah bilangan. Ini berarti, jika nilai negatif diberikan, ia akan mengembalikan nilai positifnya. Contoh: abs(-3) akan mengembalikan 3.
+z = sqrt(9);
+
+Fungsi ini mengembalikan akar kuadrat dari sebuah bilangan. Contoh: sqrt(9) akan mengembalikan 3.
+z = round(x);
+
+Fungsi ini mengembalikan bilangan bulat terdekat dari bilangan desimal yang diberikan (x). Jika nilai desimal kurang dari 0,5, maka ia dibulatkan ke bawah. Jika nilai desimal lebih besar atau sama dengan 0,5, maka ia dibulatkan ke atas. Contoh: round(3.2) akan mengembalikan 3, sedangkan round(3.8) akan mengembalikan 4.
+z = ceil(x);
+
+Fungsi ini mengembalikan bilangan bulat terkecil yang lebih besar dari atau sama dengan nilai desimal yang diberikan (x). Contoh: ceil(3.2) akan mengembalikan 4, sedangkan ceil(3.8) juga akan mengembalikan 4.
+z = floor(x);
+
+Fungsi ini mengembalikan bilangan bulat terbesar yang kurang dari atau sama dengan nilai desimal yang diberikan (x). Contoh: floor(3.2) akan mengembalikan 3, sedangkan floor(3.8) akan mengembalikan 3.
