@@ -15,6 +15,7 @@ int main(){
     	cout << "Lumayan";
 		
 	}else{
+		
 		if(age < 150){
     	cout << "Bagus";
 			
